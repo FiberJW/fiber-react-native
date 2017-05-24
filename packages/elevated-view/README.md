@@ -3,7 +3,7 @@
 Supercharge your Views with cross-platform elevation tricks!
 
 <center>
-  <img src="./demo.gif" alt="Elevation View Demo" />
+  <img src="https://i.imgur.com/fovLSfP.gif" alt="Elevation View Demo" />
 </center>
 
 ### API

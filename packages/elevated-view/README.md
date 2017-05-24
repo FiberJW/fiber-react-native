@@ -1,3 +1,30 @@
+# `fiber-react-native-elevated-view`
+
+---
+
+Supercharge your Views with cross-platform elevation tricks!
+
+<center>
+  <img src="./demo.gif" alt="Elevation View Demo" />
+</center>
+
+### API
+
+```
+type Props = {
+  feedbackEnabled: boolean,
+  activeElevation?: number,
+  elevation?: number,
+  elevationColor?: string,
+  children?: Array<mixed>,
+  style?: any,
+  onPress?: () => any
+};
+```
+
+### Example
+
+```
 /**
  * @flow
  */
@@ -60,3 +87,4 @@ const styles = StyleSheet.create({
     color: "white"
   }
 });
+```

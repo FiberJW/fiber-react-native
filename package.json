@@ -1,4 +1,6 @@
 {
+  "name": "fiber-react-native",
+  "version": "0.0.0",
   "devDependencies": {
     "lerna": "^2.0.0-rc.5"
   }

@@ -12,8 +12,9 @@ type Props = {
   feedbackEnabled: boolean,
   activeElevation?: number,
   elevation?: number,
+  elevationColor?: string,
   children?: Array<mixed>,
-  style: object,
+  style?: any,
   onPress?: () => any
 };
 
@@ -32,13 +33,17 @@ export default class ElevatedView extends Component<{}, Props, State> {
     feedbackEnabled: false,
     activeElevation: 0,
     elevation: 0,
+    elevationColor: "black",
     style: {},
     onPress: () => {}
   };
 
-  static Elevation = (elevation: number = 0): ElevationStyle => ({
+  static Elevation = (
+    elevation: number = 0,
+    color: string = "black"
+  ): ElevationStyle => ({
     elevation: elevation,
-    shadowColor: "black",
+    shadowColor: color,
     shadowOpacity: 0.03 * elevation + 0.068,
     shadowRadius: 0.64 * elevation + -0.16,
     shadowOffset: {
@@ -81,7 +86,10 @@ export default class ElevatedView extends Component<{}, Props, State> {
         <Animated.View
           style={[
             this.props.style,
-            ElevatedView.Elevation(this.state.elevation._value)
+            ElevatedView.Elevation(
+              this.state.elevation._value,
+              this.props.elevationColor
+            )
           ]}
         >
           {this.props.children}

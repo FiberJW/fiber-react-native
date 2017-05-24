@@ -1,7 +1,5 @@
 # `fiber-react-native`
 
----
-
 A collections of tips and tricks for React Native.
 
 ## Packages

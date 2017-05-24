@@ -1,7 +1,5 @@
 # `fiber-react-native-elevated-view`
 
----
-
 Supercharge your Views with cross-platform elevation tricks!
 
 <center>

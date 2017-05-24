@@ -6,6 +6,8 @@ Supercharge your Views with cross-platform elevation tricks!
   <img src="https://i.imgur.com/fovLSfP.gif" alt="Elevation View Demo" />
 </center>
 
+`yarn add fiber-react-native-elevated-view`
+
 ### API
 
 ```js

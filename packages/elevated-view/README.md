@@ -10,7 +10,7 @@ Supercharge your Views with cross-platform elevation tricks!
 
 ### API
 
-```
+```js
 type Props = {
   feedbackEnabled: boolean,
   activeElevation?: number,
@@ -24,7 +24,7 @@ type Props = {
 
 ### Example
 
-```
+```js
 /**
  * @flow
  */

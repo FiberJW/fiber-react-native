@@ -10,5 +10,9 @@
     "rn"
   ],
   "author": "Juwan Wheatley",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fiber-god/fiber-react-native/tree/master/packages/elevated-view"
+  }
 }

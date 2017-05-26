@@ -27,8 +27,6 @@ npm i --save eslint chalkdust eslint-config-prettier eslint-plugin-jsx-control-s
     "react/prop-types": 1,
     "react-native/no-unused-styles": 1,
     "consistent-return": 0,
-    "jsx-control-statements/jsx-jcs-no-undef": 0,
-    "no-unused-expressions": 0,
     "react/sort-comp": [
       1,
       {

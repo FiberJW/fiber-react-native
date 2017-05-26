@@ -14,7 +14,7 @@ Install the exact Flow version that `.flowconfig` speicifies. e.g. `yarn add --d
 
 ```bash
 #! /bin/bash
-npm i --save eslint chalkdust eslint-config-prettier eslint-plugin-jsx-control-statements jsx-control-statements eslint-plugin-react eslint-plugin-react-native prettier && echo 'module.exports = {
+npm i --save eslint chalkdust eslint-config-prettier eslint-plugin-jsx-control-statements jsx-control-statements eslint-plugin-react eslint-plugin-react-native eslint-plugin-import prettier && echo 'module.exports = {
   extends: [
     "chalkdust",
     "plugin:jsx-control-statements/recommended",

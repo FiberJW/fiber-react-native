@@ -18,7 +18,8 @@ type Props = {
   elevationColor?: string,
   children?: Array<mixed>,
   style?: any,
-  onPress?: () => any
+  onPress?: () => any,
+  onLongPress?: () => any,
 };
 ```
 

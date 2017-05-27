@@ -15,7 +15,8 @@ type Props = {
   elevationColor?: string,
   children?: Array<mixed>,
   style?: any,
-  onPress?: () => any
+  onPress?: () => any,
+  onLongPress?: () => any,
 };
 
 type ElevationStyle = {
@@ -35,7 +36,8 @@ export default class ElevatedView extends Component<{}, Props, State> {
     elevation: 0,
     elevationColor: "black",
     style: {},
-    onPress: () => {}
+    onPress: () => {},
+    onLongPress: () => {}
   };
 
   static Elevation = (
@@ -82,6 +84,7 @@ export default class ElevatedView extends Component<{}, Props, State> {
         onPressIn={() => this.animateTo(this.props.activeElevation)}
         onPressOut={() => this.animateTo(this.props.elevation)}
         onPress={this.props.onPress}
+        onLongPress={this.props.onLongPress}
       >
         <Animated.View
           style={[

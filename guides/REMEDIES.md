@@ -14,18 +14,16 @@ Install the exact Flow version that `.flowconfig` speicifies. e.g. `yarn add --d
 
 ```bash
 #! /bin/bash
-npm i --save eslint chalkdust eslint-config-prettier eslint-plugin-jsx-control-statements jsx-control-statements eslint-plugin-react eslint-plugin-react-native eslint-plugin-import prettier && echo 'module.exports = {
+npm i --save eslint eslint-config-prettier eslint-plugin-react eslint-plugin-filenames eslint-plugin-jsx-a11y eslint-config-formidable eslint-plugin-import prettier && echo 'module.exports = {
   extends: [
-    "chalkdust",
-    "plugin:jsx-control-statements/recommended",
+    "formidable/configurations/es6-react",
     "prettier",
     "prettier/flowtype",
     "prettier/react"
   ],
-  plugins: ["jsx-control-statements", "react", "react-native"],
+  plugins: ["react"],
   rules: {
-    "react/prop-types": 1,
-    "react-native/no-unused-styles": 1,
+    "react/prop-types": 0,
     "consistent-return": 0,
     "react/sort-comp": [
       1,

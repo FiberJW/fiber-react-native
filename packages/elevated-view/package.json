@@ -10,8 +10,7 @@
     "react"
   ],
   "scripts": {
-    "unflow": "flow-copy-source src lib && flow-remove-types src/index.js > lib/index.js && prettier lib/index.js --write",
-    "pub": "npm run unflow && np"
+    "prepublish": "flow-copy-source src lib && flow-remove-types src/index.js > lib/index.js && prettier lib/index.js --write"
   },
   "author": "Juwan Wheatley",
   "license": "MIT",

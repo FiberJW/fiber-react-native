@@ -2,6 +2,9 @@
 #
 .DS_Store
 
+jsconfig.json
+tsconfig.json
+.vscode/**/*
 # Xcode
 #
 build/

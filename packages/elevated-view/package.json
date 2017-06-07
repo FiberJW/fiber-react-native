@@ -3,6 +3,7 @@
   "version": "0.2.0",
   "description": "Cross-platform elevation styling for React Native.",
   "main": "lib/index.js",
+  "types": "./lib/index.d.ts",
   "keywords": [
     "react-native",
     "elevation",
@@ -10,7 +11,7 @@
     "react"
   ],
   "scripts": {
-    "prepublish": "flow-copy-source src lib && flow-remove-types src/index.js > lib/index.js && prettier lib/index.js --write"
+    "prepublish": "flow-copy-source src lib && flow-remove-types src/index.js > lib/index.js && cp src/index.d.ts lib && prettier lib/index.js --write"
   },
   "author": "Juwan Wheatley",
   "license": "MIT",
@@ -26,6 +27,6 @@
     "flow-copy-source": "^1.1.0",
     "flow-remove-types": "^1.2.1",
     "np": "^2.15.0",
-    "prettier": "^1.3.1"
+    "prettier": "^1.4.2"
   }
 }

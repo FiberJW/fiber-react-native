@@ -16,7 +16,7 @@ type Props = {
   children?: Array<mixed>,
   style?: any,
   onPress?: () => any,
-  onLongPress?: () => any,
+  onLongPress?: () => any
 };
 
 type ElevationStyle = {

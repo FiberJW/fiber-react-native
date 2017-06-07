@@ -4,7 +4,7 @@
 
 import React, { Component } from "react";
 import { AppRegistry } from "react-native";
-import App from "./src/App";
+import App from "./src";
 
 export default class demo extends Component {
   render() {

@@ -1,12 +1,12 @@
-/**
- * @flow
- */
-
 import React, { Component } from "react";
 import { StyleSheet, Text, View } from "react-native";
 import ElevatedView from "fiber-react-native-elevated-view";
 
-export default class App extends Component {
+interface State {
+  count: number;
+}
+
+export default class App extends Component<void, State> {
   state = {
     count: 0
   };

@@ -62,7 +62,8 @@ export default class ElevatedView extends Component<{}, Props, State> {
   animateTo = (elevation: number = 0) => {
     if (this.props.feedbackEnabled) {
       Animated.spring(this.state.elevation, {
-        toValue: elevation
+        toValue: elevation,
+        useNativeDriver: true
       }).start();
     }
   };

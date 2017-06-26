@@ -14,7 +14,7 @@ Install the exact Flow version that `.flowconfig` speicifies. e.g. `yarn add --d
 
 ```bash
 #! /bin/bash
-npm i --save eslint eslint-config-prettier eslint-plugin-react eslint-plugin-filenames eslint-plugin-jsx-a11y eslint-config-formidable eslint-plugin-import prettier && echo 'module.exports = {
+npm i --save-dev eslint eslint-config-prettier eslint-plugin-react eslint-plugin-filenames eslint-plugin-jsx-a11y eslint-config-formidable eslint-plugin-import prettier && echo 'module.exports = {
   extends: [
     "formidable/configurations/es6-react",
     "prettier",
